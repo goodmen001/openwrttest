@@ -39,6 +39,25 @@ svn export https://github.com/Lienol/openwrt-package/trunk/luci-app-ssr-mudb-ser
 # svn export https://github.com/lisaac/luci-app-dockerman/trunk/applications/luci-app-dockerman package/luci-app-dockerman
 svn export https://github.com/immortalwrt/luci/branches/openwrt-18.06/applications/luci-app-eqos package/luci-app-eqos
 # svn export https://github.com/syb999/openwrt-19.07.1/trunk/package/network/services/msd_lite package/msd_lite
+svn export https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-pgyvpn package/luci-app-pgyvpn
+svn export https://github.com/kiddin9/openwrt-packages/tree/master/pgyvpn package/pgyvpn
+svn export https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-phtunnel package/luci-app-phtunnel
+svn export https://github.com/kiddin9/openwrt-packages/tree/master/phtunnel package/phtunnel
+git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
+git clone https://github.com/natelol/luci-app-beardropper package/luci-app-beardropper
+git clone https://github.com/sirpdboy/luci-app-autotimeset package/luci-app-autotimeset
+git clone https://github.com/sirpdboy/luci-app-parentcontrol  package/luci-app-parentcontrol
+git clone https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-control-speedlimit package/luci-app-control-speedlimit
+git clone https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-control-webrestriction package/luci-app-control-webrestriction
+git clone https://github.com/gdck/luci-app-control-weburl package/luci-app-control-weburl
+git clone https://github.com/kiddin9/openwrt-packages/tree/master/cloudreve package/cloudreve
+git clone https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-cloudreve package/luci-app-cloudreve
+git clone https://github.com/sirpdboy/netspeedtest.git package/netspeedtest
+git clone https://github.com/sirpdboy/luci-app-advanced package/luci-app-advanced
+git clone https://github.com/sirpdboy/luci-app-netwizard package/luci-app-netwizard
+git clone https://github.com/sirpdboy/luci-app-eqosplus package/luci-app-eqosplus
+git clone https://github.com/immortalwrt-collections/openwrt-cdnspeedtest.git package/cdnspeedtest
+git clone https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-cloudflarespeedtest package/luci-app-cloudflarespeedtest
 
 # 科学上网插件
 git clone --depth=1 https://github.com/fw876/helloworld package/luci-app-ssr-plus
@@ -48,6 +67,7 @@ git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall-packages packa
 svn export https://github.com/xiaorouji/openwrt-passwall/trunk/luci-app-passwall package/luci-app-passwall
 svn export https://github.com/xiaorouji/openwrt-passwall2/trunk/luci-app-passwall2 package/luci-app-passwall2
 svn export https://github.com/vernesong/OpenClash/trunk/luci-app-openclash package/luci-app-openclash
+svn export https://github.com/haiibo/packages/trunk/luci-app-bypass package/luci-app-bypass
 
 # Themes
 git clone --depth=1 -b 18.06 https://github.com/kiddin9/luci-theme-edge package/luci-theme-edge
@@ -57,6 +77,8 @@ git clone --depth=1 https://github.com/xiaoqingfengATGH/luci-theme-infinityfreed
 svn export https://github.com/haiibo/packages/trunk/luci-theme-atmaterial package/luci-theme-atmaterial
 svn export https://github.com/haiibo/packages/trunk/luci-theme-opentomcat package/luci-theme-opentomcat
 svn export https://github.com/haiibo/packages/trunk/luci-theme-netgear package/luci-theme-netgear
+git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-opentopd
+git clone https://github.com/thinktip/luci-theme-neobird.git package/Luci-theme-neobird
 
 # 更改 Argon 主题背景
 cp -f $GITHUB_WORKSPACE/images/bg1.jpg package/luci-theme-argon/htdocs/luci-static/argon/img/bg1.jpg
