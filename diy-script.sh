@@ -39,6 +39,14 @@ git clone --depth=1 https://github.com/Jason6111/luci-app-netdata package/luci-a
 git_sparse_clone main https://github.com/Lienol/openwrt-package luci-app-filebrowser luci-app-ssr-mudb-server
 git_sparse_clone openwrt-18.06 https://github.com/immortalwrt/luci applications/luci-app-eqos
 # git_sparse_clone master https://github.com/syb999/openwrt-19.07.1 package/network/services/msd_lite
+# 新增插件
+svn export https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-pgyvpn package/luci-app-pgyvpn
+svn export https://github.com/kiddin9/openwrt-packages/tree/master/pgyvpn package/pgyvpn
+svn export https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-phtunnel package/luci-app-phtunnel
+svn export https://github.com/kiddin9/openwrt-packages/tree/master/phtunnel package/phtunnel
+git clone https://github.com/sirpdboy/luci-app-ddns-go.git package/ddns-go
+git clone https://github.com/natelol/luci-app-beardropper package/luci-app-beardropper
+git clone https://github.com/sirpdboy/luci-app-lucky.git package/lucky
 
 # 科学上网插件
 git clone --depth=1 -b main https://github.com/fw876/helloworld package/luci-app-ssr-plus
@@ -46,13 +54,16 @@ git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall-packages packa
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall package/luci-app-passwall
 git clone --depth=1 https://github.com/xiaorouji/openwrt-passwall2 package/luci-app-passwall2
 git_sparse_clone master https://github.com/vernesong/OpenClash luci-app-openclash
-
+# 新增科学插件
+https://github.com/kiddin9/openwrt-packages/tree/master/luci-app-bypass package/luci-app-bypass
 # Themes
 git clone --depth=1 -b 18.06 https://github.com/kiddin9/luci-theme-edge package/luci-theme-edge
 git clone --depth=1 -b 18.06 https://github.com/jerrykuku/luci-theme-argon package/luci-theme-argon
 git clone --depth=1 https://github.com/jerrykuku/luci-app-argon-config package/luci-app-argon-config
 git clone --depth=1 https://github.com/xiaoqingfengATGH/luci-theme-infinityfreedom package/luci-theme-infinityfreedom
 git_sparse_clone main https://github.com/haiibo/packages luci-theme-atmaterial luci-theme-opentomcat luci-theme-netgear
+# 新增主题
+git clone https://github.com/sirpdboy/luci-theme-opentopd package/luci-theme-opentopd 
 
 # 更改 Argon 主题背景
 cp -f $GITHUB_WORKSPACE/images/bg1.jpg package/luci-theme-argon/htdocs/luci-static/argon/img/bg1.jpg
