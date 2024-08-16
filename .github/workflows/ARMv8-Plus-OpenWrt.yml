@@ -1,6 +1,6 @@
 name: ARMv8 Plus OpenWrt
 
-on:
+#on:
   #workflow_dispatch:
   #schedule:
    # - cron: 0 20 * * *
